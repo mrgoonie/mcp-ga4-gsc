@@ -6,6 +6,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "mcp-ga4-gsc",
   "main": "src/index.ts",
+  "account_id": "009dc0fcd0da3e503fbf38eb2b586e4b",
   "compatibility_date": "2025-03-10",
   "compatibility_flags": ["nodejs_compat"],
   // ALLOWED_EMAILS, ALLOWED_DOMAINS and ALIAS_PATHS are set as secrets
@@ -29,7 +30,7 @@
   "kv_namespaces": [
     {
       "binding": "OAUTH_KV",
-      "id": "2efa2ad87fad44b6933a7d62076e0f7e"
+      "id": "fbaf932f941341d3b48e164083dce8b0"
     }
   ],
   "observability": {
